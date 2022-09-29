@@ -1,14 +1,20 @@
-/* **Iteración #2: Buscar la palabra más larga**
+const avengers = [
+  "Hulk",
+  "Thor",
+  "IronMan",
+  "Captain A.",
+  "Spiderman",
+  "Captain M.",
+];
 
-Completa la función que tomando un array de strings como argumento devuelva el más largo, 
-en caso de que dos strings tenga la misma longitud deberá devolver el primero.
+function findLongestWord(avengers) {
+  let longestWord = " ";
+  for (const avenger of avengers) {
+    if (avenger.length > longestWord.length) {
+      longestWord = avenger;
+    }
+  }
 
-Puedes usar este array para probar tu función: */
-
-const avengers = ['Hulk', 'Thor', 'IronMan', 'Captain A.', 'Spiderman', 'Captain M.'];
-function findLongestWord(param) {
-  // insert code
+  return longestWord;
 }
-
-
-
+console.log(findLongestWord(avengers));
