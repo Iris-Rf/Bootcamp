@@ -1,11 +1,11 @@
 const numbers = [12, 21, 38, 5, 45, 37, 6];
-let meanNumbers = 0;
 
-function average(mean) {
+function average(numbers) {
+  let meanNumbers = 0;
   for (let i = 0; i < numbers.length; i++) {
     meanNumbers += numbers[i];
   }
   return meanNumbers / numbers.length;
 }
 
-console.log(average(meanNumbers));
+console.log(average(numbers));

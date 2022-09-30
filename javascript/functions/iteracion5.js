@@ -1,14 +1,11 @@
-const mixedElements = [6, 1, 'Rayo', 1, 'vallecano', '10', 'upgrade', 8, 'hub'];
-let siEsNum = 0;
+const mixedElements = [6, 1, "Rayo", 1, "vallecano", "10", "upgrade", 8, "hub"];
 
-function sumNum(param) {
-  for (let i = 0; i < param.length; i++) {
-siEsNum += numbers[i];
+function sumNum(mixedElements) {
+  let siEsNum = 0;
+  for (let i = 0; i < mixedElements.length; i++) {
+    if (typeof valor === "number") siEsNum += mixedElements[i];
+  }
+  return siEsNum;
 }
-return siEsNum;
-}
 
-
-console.log(sumNum(siEsNum));
-
-// A resolver
+console.log(sumNum(mixedElements));
