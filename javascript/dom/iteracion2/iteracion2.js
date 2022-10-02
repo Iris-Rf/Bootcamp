@@ -34,9 +34,6 @@ for (i = 0; i <= 5; i++) {
   newDiv2.appendChild(newP1);
 }
 
-// let newP6 = document.createElement("p");
-// newDiv2.appendChild(newP6);
-// console.log(newDiv2);
 
 // 2.4 Inserta dinamicamente con javascript en un html una p con el texto 'Soy dinámico!'.
 
