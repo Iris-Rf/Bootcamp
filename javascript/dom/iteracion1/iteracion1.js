@@ -28,6 +28,4 @@ console.log(dataFunctionNode);
 // data-function="testMe".
 
 const dataFunctionNode3 = dataFunctionNode[2];
-console.log(dataFunctionNode3)
-
-ksjdasjla
+console.log(dataFunctionNode3);
