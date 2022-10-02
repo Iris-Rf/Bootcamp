@@ -23,19 +23,17 @@ console.log(newDiv1);
 let divNode2 = document.querySelector("div");
 
 let newDiv2 = document.createElement("div");
-newDiv1.appendChild(divNode2);
-
-let newP1 = document.createElement("p");
-newDiv1.appendChild(newP1);
-console.log(newDiv2);
+newDiv2.appendChild(divNode2);
 
 for (i = 0; i <= 5; i++) {
   let newP1 = document.createElement("p");
   newDiv2.appendChild(newP1);
 }
-
+console.log(newDiv2);
 
 // 2.4 Inserta dinamicamente con javascript en un html una p con el texto 'Soy dinámico!'.
+
+
 
 // 2.5 Inserta en el h2 con la clase .fn-insert-here el texto 'Wubba Lubba dub dub'.
 
