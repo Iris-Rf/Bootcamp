@@ -44,14 +44,22 @@ console.log(newP2);
 // 2.5 Inserta en el h2 con la clase .fn-insert-here el texto 'Wubba Lubba dub dub'.
 
 let h2Node = document.querySelector('.fn-insert-here');
-
 let h2ChangeText = document.createTextNode('Wubba Lubba dub dub');
+
 h2Node.appendChild(h2ChangeText);
 console.log(h2Node);
 
 
 // 2.6 Basandote en el siguiente array crea una lista ul > li con los textos del array.
 // const apps = ['Facebook', 'Netflix', 'Instagram', 'Snapchat', 'Twitter'];
+
+let listNodes = document.querySelector("ul");
+let listUl = document.createElement('ul');
+console.log(listUl);
+// let textList = document.createTextNode(['Facebook', 'Netflix', 'Instagram', 'Snapchat', 'Twitter']);
+// listNodes.appendChild(textList);
+// console.log(listNodes);
+
 
 // 2.7 Elimina todos los nodos que tengan la clase .fn-remove-me
 
