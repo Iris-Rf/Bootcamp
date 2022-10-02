@@ -8,7 +8,20 @@ newDiv.appendChild(divNode);
 
 // 2.2 Inserta dinamicamente en un html un div que contenga una p con javascript.
 
+let divNode1 = document.querySelector('div');
+
+let newDiv1 = document.createElement("div");
+newDiv1.appendChild(divNode1); 
+
+let newP = document.createElement("p");
+newDiv1.appendChild(newP);
+console.log(newDiv1);
+
 // 2.3 Inserta dinamicamente en un html un div que contenga 6 p utilizando un loop con javascript.
+
+// let newP6 = document.createElement("p");
+// newDiv2.appendChild(newP6);
+// console.log(newDiv2);
 
 // 2.4 Inserta dinamicamente con javascript en un html una p con el texto 'Soy dinámico!'.
 
