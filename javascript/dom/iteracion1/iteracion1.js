@@ -27,5 +27,5 @@ console.log(dataFunctionNode);
 // Usa querySelector para mostrar por consola el 3 personaje con el atributo 
 // data-function="testMe".
 
-const dataFunctionNode3 = document.querySelector('span');
+const dataFunctionNode3 = dataFunctionNode[2];
 console.log(dataFunctionNode3)
