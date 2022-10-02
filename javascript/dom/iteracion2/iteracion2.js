@@ -67,12 +67,13 @@ for (const app of apps) {
 console.log(list);
 
 
-// const listText = document.createTextNode(['Facebook', 'Netflix', 'Instagram', 'Snapchat', 'Twitter']);
-// listNodes.appendChild(nodes);
-// console.log(listNodes);
-
 
 // 2.7 Elimina todos los nodos que tengan la clase .fn-remove-me
+
+const removeFn = document.querySelector(".fn-remove-me");
+
+removeFn.classList.remove("fn-remove-me");
+console.log(removeFn);
 
 // 2.8 Inserta una p con el texto 'Voy en medio!' entre los dos div.
 // 	Recuerda que no solo puedes insertar elementos con .appendChild.
