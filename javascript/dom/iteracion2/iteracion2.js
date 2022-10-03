@@ -71,11 +71,18 @@ console.log(list);
 // 2.7 Elimina todos los nodos que tengan la clase .fn-remove-me
 
 const removeFn = document.querySelector(".fn-remove-me");
+const a = document.getElementsByClassName("fn-remove-me");
+// const remove = removeFn[0];
 
-removeFn.classList.remove("fn-remove-me");
-console.log(removeFn);
+// removeFn.classList.remove("fn-remove-me");
+// console.log(remove);
 
 // 2.8 Inserta una p con el texto 'Voy en medio!' entre los dos div.
 // 	Recuerda que no solo puedes insertar elementos con .appendChild.
 
+const insertP = document.getElementsByClassName("h2");
+insertP.insertAdjacentHTML('bfn-insert-here', '<div><p>Voy en medio"</p></div>');
+
+// let box2 = document.getElementById('box2');
+// box2.insertAdjacentHTML('beforebegin', '<div><p>un parrafo nuevo.</p></div>');
 // 2.9 Inserta p con el texto 'Voy dentro!', dentro de todos los div con la clase .fn-insert-here
