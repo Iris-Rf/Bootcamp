@@ -22,5 +22,5 @@ const duplicates = [
   return result;
 }
 
-console.log(removeDuplicates); 
+console.log(result); 
 

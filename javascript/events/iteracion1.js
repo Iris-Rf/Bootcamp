@@ -1,9 +1,14 @@
 // 1.1 Añade un botón a tu html con el id btnToClick y en tu javascript añade el 
 // evento click que ejecute un console log con la información del evento del click
 
-const btnToClick = document.querySelector("#btnToClick");
+const buttom = document.querySelector("#buttom");
+const a = document.createElement("bottom");
 
-btnToClick.onclick = () => { console.log(btnToClick); };
+let btn = document.getElementById("btnToClick");
+
+console.log(btn);
+
+
 
 
 
