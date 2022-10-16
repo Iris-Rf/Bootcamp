@@ -2,8 +2,8 @@
 
 const baseUrl = "https://api.nationalize.io";
 
-const getData = async (name) => {
-  const response = await fetch(`${baseUrl}?${name}`);
+const getData = async (param) => {
+  const response = await fetch(`${baseUrl}?name=${param}`);
   const data = await response.json();
   console.log(data);
   return data;
@@ -11,7 +11,7 @@ const getData = async (name) => {
 
 const button = document.querySelector("button");
 button.addEventListener("click", () => {
-  const inputValue = document.querySelector("input").value;
-  console.log(inputValue);
-  return inputValue;
+  const input = document.querySelector("input");
+  console.log(input.value)
+  getData(input.value);
 });

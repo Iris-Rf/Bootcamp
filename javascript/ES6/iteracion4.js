@@ -11,14 +11,14 @@ console.log(namesArray);
 
 // 4.2
 
-const anacletoList = users.map((user) => {
+const mapList = users.map((user) => {
   if (user.name.charAt(0) === "A") {
     return (user.name = "Anacleto");
   }
   return user.name;
 });
 
-console.log(anacletoList);
+console.log(mapList);
 
 // 4.3
 

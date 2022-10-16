@@ -6,8 +6,8 @@ console.log(adults);
 
 // 5.2
 
-const oddAges = ages.filter((age) => age % 2 === 0);
-console.log(oddAges);
+const pairAges = ages.filter((age) => age % 2 === 0);
+console.log(pairAges);
 
 // 5.3
 
