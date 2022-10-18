@@ -2,8 +2,8 @@
 let countries = ["Japón", "Nicaragua", "Suiza", "Australia", "Venezuela"];
 const countriesList = document.createElement("ul");
 
-countries.forEach((countrie) => {
-  const li = `<li>${countrie}</li>`;
+countries.forEach((country) => {
+  const li = `<li>${country}</li>`;
   countriesList.innerHTML += li;
 });
 
@@ -36,10 +36,10 @@ countries = [
   { title: "Random title", imgUrl: "https://picsum.photos/300/200?random=4" },
   { title: "Random title", imgUrl: "https://picsum.photos/300/200?random=5" },
 ];
-const countriesContainer = document.createElement("div");
-document.body.appendChild(countriesContainer);
-countries.forEach((countrie) => {
-  const { title, imgUrl } = countrie;
+const countriesList1 = document.createElement("div");
+document.body.appendChild(countriesList1);
+countries.forEach((country) => {
+  const { title, imgUrl } = country;
   const div = `
     <div class='countryDiv'>
         <h4>${title}</h4>
@@ -47,7 +47,7 @@ countries.forEach((countrie) => {
         <button class='deleteCountryBtn' >Delete country</button>
     </div>
     `;
-  countriesContainer.innerHTML += div;
+  countriesList1.innerHTML += div;
 });
 
 // 1.5

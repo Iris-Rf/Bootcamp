@@ -26,3 +26,11 @@ for (let movie of movies) {
   }
 }
 console.log(newArrayMovies);
+
+// alternativa más sencilla
+
+// let categories = [];
+
+// for (const movie of movies) {
+//   for (const category 
+// }

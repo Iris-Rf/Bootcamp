@@ -8,8 +8,8 @@ const toys = [
 ]
 
 for (const toy of toys) {
-    if (toys[toy].sellCount >= 15) {
-        popularToys.push(toys[toy]);
+    if (toy.sellCount > 15) {
+        popularToys.push(toy);
       }
     }
   

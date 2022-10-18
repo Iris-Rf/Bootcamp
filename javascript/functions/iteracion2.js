@@ -7,6 +7,7 @@ const avengers = [
   "Captain M.",
 ];
 
+// línea 11 avengers es igual a list 
 function findLongestWord(avengers) {
   let longestWord = " ";
   for (const avenger of avengers) {
