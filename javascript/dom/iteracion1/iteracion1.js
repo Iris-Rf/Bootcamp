@@ -18,5 +18,5 @@ const dataFunctionNode = document.querySelectorAll('span');
 console.log(dataFunctionNode);
 
 
-const dataFunctionNode3 = dataFunctionNode[2];
-console.log(dataFunctionNode3);
+// const dataFunctionNode3 = dataFunctionNode[2];
+// console.log(dataFunctionNode3);
