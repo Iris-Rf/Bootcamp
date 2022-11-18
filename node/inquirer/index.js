@@ -14,7 +14,7 @@ inquirer
     if (answers.prettier === "Yes") {
       console.log("Archivo prettier");
       fs.writeFile("prettierc", "Archivo prettier", () => {
-        // console.log("Crear prettier");
+        console.log("Crear prettier");
       });
     }
   })
