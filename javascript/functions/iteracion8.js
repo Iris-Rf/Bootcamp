@@ -18,4 +18,4 @@ const repeatCounter = (elements) => {
   });
   return totalCount;
 };
-console.log(repeatCounter(counterWords));
+
