@@ -1,9 +1,37 @@
 {
+  "name": "hex-arq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest --runInBand --detectOpenHandles --forceExit",
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write .",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint src --fix --cache"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1",
+    "supertest": "^4.0.2"
+  },
   "dependencies": {
     "config-yml": "^0.10.3",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^6.7.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "verbose": true
   }
 }
