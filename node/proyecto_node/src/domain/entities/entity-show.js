@@ -3,8 +3,8 @@
 module.exports = (db) => {
     const showSchema = new db.Schema(
       {
-        title: String,
-        poster: String,
+        title: { type: String, required: true },
+        poster: { type: String, required: true },
       },
       {
         timestamps: {

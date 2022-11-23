@@ -10,6 +10,5 @@ describe('Post Movie', () => {
     });
     expect(res.statusCode).toEqual(201);
     expect(res.body.status).toEqual('Success');
-    onde;
   });
 });

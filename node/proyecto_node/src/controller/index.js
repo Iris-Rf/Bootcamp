@@ -4,7 +4,7 @@
 const express = require('express');
 const router = express.Router();
 const movies = require('../domain/services/service-movie');
-const shows = require('../domain/services/service-show');
+const shows = require('../domain/services/service-movie');
 
 //Implementamos cada uno de los verbos y sus rutas a cada una de las funciones de 
 //los servicios, que dispararán en cadena tanto el generador de las respuestas como

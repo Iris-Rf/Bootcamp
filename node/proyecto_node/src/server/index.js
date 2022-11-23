@@ -1,17 +1,18 @@
 //Requerimos express y cors y creamos el servidor
 const express = require('express');
 const cors = require('cors');
-const server = express();
+const app = express();
 
 //Implementamos las cors
-server.use(cors());
+app.use(cors());
 
 //Parseamos la información del servidor
-server.use(express.json());
-server.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+//parsea el body 
+app.use(express.urlencoded({ extended: true }));
 
 //Le implementamos el servidor a todas las rutas previamente creadas
-require('../routes')(server);
+require('../routes/routes')(app);
 
 //Exportamos el servidor
-module.exports = server;
+module.exports = app;

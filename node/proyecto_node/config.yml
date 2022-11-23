@@ -1,4 +1,4 @@
-port: 8080
+port: 8000
 db:
   mongodb:
     - enabled: true
@@ -6,6 +6,6 @@ db:
       port: 27017
       username: test
       password: 123456
-      database: demo
+      database: hex
       nameconn: connMongo
       lang: ES
